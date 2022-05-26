@@ -23,6 +23,7 @@ header .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 70px;
 }
 
 header .logo{
@@ -31,7 +32,7 @@ header .logo{
     color: var(--vermelho);
     font-family: 'arial black',Times;
     font-size: 40px;
-    margin-left: 20px;
+   
 }
 
 header nav a{
@@ -39,6 +40,7 @@ header nav a{
     color: #AAA;
     margin-right: 10px;
     margin: 20px;
+    font-size: 20px;
     
 }
 
@@ -49,7 +51,7 @@ header nav a:hover{
 /* filme principal */
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/fmab.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/fmab.webp');
     height: 900px;
     background-size:cover;
     display: flex;
@@ -70,9 +72,6 @@ header nav a:hover{
     font-size: 70px;
 }
 
-.sinopse,.titulo,.botao{
-    margin-left: 20px;
-}
 
 .botao{
     background-color:rgba(0,0,0,.50) ;
@@ -92,4 +91,14 @@ header nav a:hover{
   
 .botao i{
     margin-right: 10px;
+}
+
+.container,.botao{
+    margin-left: 20px;
+}
+
+.box-filme{
+    height: 10%;
+    width: 10%;
+    display: block;
 }
